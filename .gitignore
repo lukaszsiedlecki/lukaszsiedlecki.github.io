@@ -9,3 +9,14 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .idea
+
+public/
+
+.hugo_build_lock
+resources/_gen/
+
+*.iml
+*.iws
+
+.DS_Store
+Thumbs.db
