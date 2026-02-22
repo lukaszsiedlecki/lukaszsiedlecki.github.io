@@ -1,0 +1,12 @@
+/* Home page: reduce the large top margin on the Recent Posts header */
+.home-posts-section header {
+  margin-top: 2rem;
+}
+
+/* Home page: visual separator and breathing room above the avatar section */
+.home-about-section {
+  margin-top: 1rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+  width: 100%;
+}

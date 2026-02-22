@@ -15,7 +15,7 @@ style = "github-dark"
 
 [params]
 author = "Łukasz Siedlecki"
-info = "Software Engineer and DevOps passionate"
+info = "Software Engineer and DevOps enthusiast"
 description = "Łukasz Siedlecki's personal website"
 keywords = "blog,developer,personal"
 avatarURL = "images/avatar.jpg"
@@ -29,11 +29,10 @@ since = 2015
 
 enableTwemoji = true
 
-colorScheme = "auto"
-hidecolorschemetoggle = false
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
 
-# customCSS = ["css/custom.css"]
-# customSCSS = ["scss/custom.scss"]
+  customCSS = ["css/main.css"]
 # customJS = ["js/custom.js"]
 
 [taxonomies]
