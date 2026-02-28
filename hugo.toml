@@ -7,6 +7,9 @@ defaultcontentlanguage = "en"
 [pagination]
 pagerSize = 20
 
+[frontmatter]
+lastmod = ["lastmod", "date"]
+
 #[services]
 #[services.disqus]
 #shortname = "https-lukaszsiedlecki-com"

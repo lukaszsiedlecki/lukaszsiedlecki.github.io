@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2026-02-18T09:03:55+01:00
+lastmod = 2026-02-28T10:00:00+01:00   
 title = "Hello World"
 description = "Starting a new journey of documenting knowledge and rediscovering the fundamentals of engineering."
 slug = "hello-world"
