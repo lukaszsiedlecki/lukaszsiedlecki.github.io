@@ -1,6 +1,6 @@
 baseurl = "https://lukaszsiedlecki.com"
 title = "Łukasz Siedlecki"
-theme = "hugo-coder"
+theme = "PaperMod"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -10,33 +10,50 @@ pagerSize = 20
 [frontmatter]
 lastmod = ["lastmod", "date"]
 
-#[services]
-#[services.disqus]
-#shortname = "https-lukaszsiedlecki-com"
 [markup.highlight]
 style = "github-dark"
 
 [params]
 author = "Łukasz Siedlecki"
-info = "Software Engineer and DevOps enthusiast"
 description = "Łukasz Siedlecki's personal website"
-keywords = "blog,developer,personal"
-avatarURL = "images/avatar.jpg"
-#  gravatar = "me@lukaszsiedlecki.com"
+keywords = ["blog", "developer", "personal"]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
 
-faviconSVG = "/img/favicon.svg"
-favicon_32 = "/img/favicon-32x32.png"
-favicon_16 = "/img/favicon-16x16.png"
+[params.profileMode]
+enabled = true
+title = "Łukasz Siedlecki"
+subtitle = "Software Engineer and DevOps enthusiast"
+imageUrl = "images/avatar.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Łukasz Siedlecki"
 
-since = 2015
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "posts"
 
-enableTwemoji = true
+[[params.profileMode.buttons]]
+name = "About"
+url = "about"
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lukaszsiedlecki/"
 
-  customCSS = ["css/main.css"]
-# customJS = ["js/custom.js"]
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/lukasz-siedlecki/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:me@lukaszsiedlecki.com"
 
 [taxonomies]
 category = "categories"
@@ -44,31 +61,17 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-# Social links
-[[params.social]]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 1
-url = "https://github.com/lukaszsiedlecki/"
-target = "_blank"
-[[params.social]]
-name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
-weight = 2
-url = "https://www.linkedin.com/in/lukasz-siedlecki/"
-target = "_blank"
-[[params.social]]
-name = "Email"
-icon = "fa-solid fa-envelope fa-2x"
-weight = 3
-url = "mailto:me@lukaszsiedlecki.com"
-
-# Menu links
 [[menu.main]]
 name = "Blog"
 weight = 1
 url = "posts/"
+
 [[menu.main]]
 name = "About"
 weight = 2
 url = "about/"
+
+[[menu.main]]
+name = "Tags"
+weight = 3
+url = "tags/"
