@@ -11,7 +11,7 @@ I am a Software Engineer with a professional focus on DevOps practices and cloud
 ### Areas of Interest
 
 - **Software Engineering:** Designing and building robust, maintainable software systems with a focus on the **JVM** ecosystem and **Spring Framework**.
-- **DevOps:** Containerization and orchestration using **Docker** and **Kubernetes** (currently pursuing **CKAD** certification).
+- **DevOps:** Containerization and orchestration using **Docker** and **Kubernetes**. I am a certified **[Certified Kubernetes Application Developer (CKAD)](https://www.credly.com/earner/earned/badge/112370c1-7ac8-4dbd-a18e-e76fa7735a65)**.
 - **Cloud Computing:** Architecting and managing cloud-based infrastructure, primarily on the **Google Cloud Platform (GCP)**. I am a certified **[GCP Professional Cloud Architect](https://www.credly.com/badges/732b86e8-0039-4bef-9cc5-11e9675f3261/public_url)**.
 
 ### About This Blog
@@ -24,7 +24,3 @@ I am open to technical discussions and professional networking. You can reach me
 
 * **Email:** [me@lukaszsiedlecki.com](mailto:me@lukaszsiedlecki.com)
 * **LinkedIn:** [linkedin.com/in/lukasz-siedlecki](https://www.linkedin.com/in/lukasz-siedlecki/)
-
-***
-
-> "The best way to predict the future is to invent it." — Alan Kay
