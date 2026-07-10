@@ -41,7 +41,7 @@ The results are available 24 hours after you finish your attempt. That was the l
 
 ![CKAD exam score](/images/ckad_score.png)
 
-## The most important things to remember:
+### The most important things to remember:
 1. Learn K8s commands well, especially how to generate YAML using imperative commands. There is not enough time to write YAML from scratch!
 2. Learn how to effectively use K8s documentation, since it is allowed on the exam. It helps a lot with small tuning, which is impossible to remember.
 3. Flag and skip a question if it seems difficult, and do the easiest first. As far as I know, it's common for the first question to be the hardest one, so watch out for that trick :)
