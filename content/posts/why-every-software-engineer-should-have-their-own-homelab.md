@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2026-09-08T20:00:00+01:00
 title = "Why Every Software Engineer Should Have Their Own Homelab"
 description = ""
